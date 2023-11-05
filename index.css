@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
     color: white;
@@ -29,7 +30,7 @@ button {
     font-weight: 100;
 }
 
-#heading {
+#heading, a {
     text-align: center;
     color: white;
 }
@@ -41,4 +42,18 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+
+.card {
+    margin: auto;
+    width: 70px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
