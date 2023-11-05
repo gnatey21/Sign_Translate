@@ -15,7 +15,7 @@ function getInput() {
 
             let newImage = document.createElement("img");
 
-                newImage.src = "./ASL/" + character + ".png";
+                newImage.src = "/ASL/" + character + ".png";
                 newImage.setAttribute("name", i);
                 newImage.style.height = '55px';
                 newImage.style.width = '55px';
