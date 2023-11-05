@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+label {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    width: 480px;
+    height: 130px;
+    resize: none;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: 6px;
+    outline-width: 2px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: white;
+    width: auto;
+    height: 50px;
+    font-weight: 100;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+}
+
+.input_handler {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

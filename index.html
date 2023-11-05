@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-Slate | The Free Sign Language Translator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./main.js"></script>
 </head>
 <body>
+    <div id="heading">
+        <h1>Welcome to Sign-Slate</h1>
+        <p>Welcome to our site, where our goal is to bring people together by breaking down language barriers!</p>
+    </div>
+
+    <label for="string_input" class="input_handler">What would you like to sign?</label><br>
+    <div class="input_handler">
+        <textarea name="string_input" id="string_input" placeholder="Enter a message here..."></textarea>
+    </div>
+    <button class="input_handler" onclick="getInput()">
+        Translate to Sign Language
+    </button>
     
 </body>
 </html>
